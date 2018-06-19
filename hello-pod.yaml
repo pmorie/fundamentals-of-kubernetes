@@ -1,3 +1,17 @@
+#
+#POD:
+#       - A pod represents a single instance of the application, and is the smallest 
+#         compute unit in Kubernetes.
+#
+#       - A pod contains of one or more containers deployed together on a single host,
+#         which means they share the same network space, and mount the same external storage. 
+#        
+#       - Pods are assigned to run on a node, and run until their containers exit or are removed.
+#        
+#       - Once a Pod goes down, it cannot bring itself back up on its own (does not self-heal),
+#         which is why we use them with ReplicaSets/ReplcationControllers which can handle this.
+#
+
 apiVersion: v1
 kind: Pod
 metadata:
