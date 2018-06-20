@@ -1,3 +1,11 @@
+#
+# ReplicaSets:
+#       
+#       - A ReplicaSet is a controller that makes sure the specified number of pods is always running.
+#       
+#       - If something unexpected happens, the ReplicaSet is used to create, delete, and update the pods.
+#
+
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
