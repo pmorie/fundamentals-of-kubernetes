@@ -1,3 +1,11 @@
+#
+# Deployment:
+#       - A Deployment provides updates to Pods and ReplicaSets
+#       
+#       - Given a desired state in the Deployment object (For example, using a YAML file like 
+#         this one), the Deployment controller updates the current state to that desired state. 
+#
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
