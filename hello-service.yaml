@@ -1,8 +1,8 @@
 #
 # SERVICE:
 #
-#       - A Service defines a set of Pods chosen using the Label Selector ('app: hello-world'
-#         in this case), and  allows access to these Pods.
+#       - A Service defines and allows access to a set of Pods chosen using the Label Selector ('app: hello-world'
+#         in this case).
 #       
 #       - By default services load balance traffic to the set of Pods. If your application
 #         does not need a load balancer, you can create a 'headless' service by setting 'Cluster IP' (.spec.clusterIP) to 'None' 
